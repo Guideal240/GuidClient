@@ -11,7 +11,7 @@ javacc.bat -STATIC:false -OUTPUT_DIRECTORY:C:\Users\Zergatul\source\repos\cheatu
 
 PARSER_BEGIN(ScriptingLanguage)
 
-package com.zergatul.cheatutils.scripting.generated;
+package com.guideal.guidclient.scripting.generated;
 
 public class ScriptingLanguage {
 }
