@@ -48,11 +48,11 @@ public class EntityTracerConfig extends TracerConfigBase {
         config.clazz = clazz;
         config.enabled = false;
         config.drawTracers = true;
-        config.tracerColor = Color.WHITE;
+        config.tracerColor = Color.RED;
         config.drawOutline = true;
-        config.outlineColor = Color.WHITE;
+        config.outlineColor = Color.GREEN;
         config.maxDistance = DefaultMaxDistance;
-        config.glow = true;
+        config.glow = false;
         config.glowColor = Color.WHITE;
         return config;
     }

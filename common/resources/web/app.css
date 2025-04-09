@@ -3,7 +3,7 @@ button.faded {
 }
 
 table.main-table > thead > tr > th {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     font-size: 14px;
 }
@@ -18,11 +18,9 @@ table.main-table > tbody > tr > td > button {
 
 button {
     box-sizing: border-box;
-    border-radius: 10px;
-    border-width: 4px;
+    border-width: 2px;
     border-style: solid;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    font-family: sans-serif;
     font-size: 14px;
     height: 32px;
 }
@@ -36,11 +34,10 @@ select {
     box-sizing: border-box;
     border-width: 4px;
     border-style: solid;
-    border-radius: 10px;
 }
 
 a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
 }
 
@@ -50,9 +47,8 @@ ul.list-base {
     overflow-y: auto;
     border-width: 4px;
     border-style: solid;
-    border-radius: 2px;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
 }
 
@@ -186,7 +182,7 @@ div.entity-info-id {
 
 span.text {
     display: inline-block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
     margin-left: 4px;
     margin-right: 4px;
@@ -194,7 +190,7 @@ span.text {
 
 span.explanation {
     display: inline-block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 12px;
     margin-left: 4px;
     margin-right: 4px;
@@ -208,32 +204,32 @@ label.switch-label {
 
 label.switch-label > span {
     display: inline-block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
     margin: 4px 8px 8px 8px;
 }
 
 div.description {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
     margin-bottom: 12px;
     max-width: 1000px;
 }
 
 div.section-description {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
 }
 
 span.field-description {
     display: inline-block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
     margin-right: 4px;
 }
 
 div.input-description {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
     display: inline-block;
     padding-left: 16px;
@@ -247,7 +243,7 @@ input[type=text] {
     border-width: 2px;
     border-style: solid;
     border-radius: 4px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
 }
 
@@ -260,7 +256,7 @@ div.module-main {
 }
 
 h2.module-header {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     margin: 0;
 }
 
@@ -411,7 +407,7 @@ div.edit-block-header {
     display: flex;
     flex-direction: column;
     padding: 8px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
 }
 
@@ -435,7 +431,7 @@ div.module-sections {
 }
 
 legend {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     font-size: 14px;
     display: flex;
@@ -509,7 +505,7 @@ div.color-box {
     background: #333aa3;
     cursor: pointer;
 }
-  
+
 .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
@@ -518,7 +514,7 @@ div.color-box {
 }
 
 .group-setting {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
     display: flex;
     align-items: flex-start;
@@ -686,7 +682,7 @@ div.script-editor {
 }
 
 div.schematic-info {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
 }
 
@@ -754,12 +750,12 @@ table.inputs-table {
     }
 
     a, a:visited {
-        color: #2F81F7;
+        color: #3af72f;
         text-decoration: none;
     }
 
     a:hover {
-        color: #2F81F7;
+        color: #44f72f;
         text-decoration: underline;
     }
 
@@ -770,7 +766,7 @@ table.inputs-table {
     }
 
     button:hover:not(:disabled) {
-        background-color: #BBBFFF;
+        background-color: #64994d;
     }
 
     .button-highlight {
@@ -840,11 +836,11 @@ table.inputs-table {
     ul.refs .method {
         color: #00627A;
     }
-    
+
     ul.refs .class {
         color: #0033B3;
     }
-    
+
     ul.refs .comment {
         color: #277813;
     }
@@ -852,28 +848,28 @@ table.inputs-table {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #3C3F41;
-        color: #BBBBBB;
+        background-color: #21331a;
+        color: white;
     }
 
     a, a:visited {
-        color: #40A0C6;
+        color: #40c64d;
         text-decoration: none;
     }
 
     a:hover {
-        color: #40A0C6;
+        color: #47c640;
         text-decoration: underline;
     }
 
     button {
         background-color: #4C5052;
         border-color: #5E6060;
-        color: #BBBBBB;
+        color: white;
     }
 
     button:hover:not(:disabled) {
-        background-color: #365880;
+        background-color: #30752a;
     }
 
     .button-highlight {
@@ -943,11 +939,11 @@ table.inputs-table {
     }
 
     ul.refs .method {
-        color: #009EC1;
+        color: #00c11d;
     }
-    
+
     ul.refs .class {
-        color: #427BFF;
+        color: #42ff4b;
     }
     
     ul.refs .comment {

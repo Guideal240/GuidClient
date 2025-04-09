@@ -7,6 +7,7 @@ import net.minecraft.client.player.RemotePlayer;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.NeutralMob;
 import net.minecraft.world.entity.monster.*;
+import net.minecraft.world.entity.monster.boss.enderdragon.EndCrystal;
 import net.minecraft.world.entity.monster.piglin.AbstractPiglin;
 import net.minecraft.world.entity.projectile.Fireball;
 import net.minecraft.world.entity.projectile.ShulkerBullet;
@@ -78,6 +79,7 @@ public class KillAuraConfig extends ModuleConfig implements ValidatableConfig {
         public static final String PLAYERS = "Players";
         public static final String SHULKER_BULLETS = "Shulker Bullets";
         public static final String FIREBALLS = "Fireballs";
+        public static final String END_CRYSTALS = "End Crystals";
 
         public static final Map<String, PredefinedPriorityEntry> entries = Map.ofEntries(
                 Map.entry(ENEMIES, new PredefinedPriorityEntry(
@@ -104,7 +106,8 @@ public class KillAuraConfig extends ModuleConfig implements ValidatableConfig {
                 )),
                 Map.entry(PLAYERS, new PredefinedPriorityEntry(PLAYERS, null, entity -> entity instanceof RemotePlayer)),
                 Map.entry(SHULKER_BULLETS, new PredefinedPriorityEntry(SHULKER_BULLETS, null, entity -> entity instanceof ShulkerBullet)),
-                Map.entry(FIREBALLS, new PredefinedPriorityEntry(FIREBALLS, "Ghast projectiles.", entity -> entity instanceof Fireball))
+                Map.entry(FIREBALLS, new PredefinedPriorityEntry(FIREBALLS, "Ghast projectiles.", entity -> entity instanceof Fireball)),
+                Map.entry(END_CRYSTALS, new PredefinedPriorityEntry(FIREBALLS, "End crystals for PVP.", entity -> entity instanceof EndCrystal))
         );
 
         private PredefinedPriorityEntry(String name, String description, Predicate<Entity> predicate) {

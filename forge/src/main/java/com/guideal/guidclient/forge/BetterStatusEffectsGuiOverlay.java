@@ -20,7 +20,7 @@ public class BetterStatusEffectsGuiOverlay implements IGuiOverlay {
             int height = Math.max(gui.leftHeight, gui.rightHeight) + 24 + mc.font.lineHeight;
             int top = screenHeight - height;
 
-            if (BetterStatusEffects.instance.render(graphics, screenWidth, top)) {
+            if (BetterStatusEffects.instance.render(graphics, mc.player, top)) {
                 gui.leftHeight = gui.rightHeight = height;
             }
         }
