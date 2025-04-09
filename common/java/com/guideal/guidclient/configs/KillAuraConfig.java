@@ -7,7 +7,7 @@ import net.minecraft.client.player.RemotePlayer;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.NeutralMob;
 import net.minecraft.world.entity.monster.*;
-import net.minecraft.world.entity.monster.boss.enderdragon.EndCrystal;
+import net.minecraft.world.entity.boss.enderdragon.EndCrystal;
 import net.minecraft.world.entity.monster.piglin.AbstractPiglin;
 import net.minecraft.world.entity.projectile.Fireball;
 import net.minecraft.world.entity.projectile.ShulkerBullet;
